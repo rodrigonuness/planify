@@ -29,11 +29,15 @@ INSTALLED_APPS = [
     'backend.planify',  # Corrija para backend.planify
 ]
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "frontend_build", "static"),
+]
+
 # Adicione/corrija o bloco TEMPLATES
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "frontend_build")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -1,0 +1,62 @@
+# ========================
+# Python / Django
+# ========================
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*$py.class
+*.coverage
+*.env
+.env/
+venv/
+ENV/
+env/
+pip-log.txt
+__pycache__/
+local_settings.py
+db.sqlite3
+media/
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py[cod]
+*/migrations/__pycache__/
+
+# ========================
+# Node / React
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Sistema Operacional
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.swp   
